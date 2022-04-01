@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.globalContentContainer{
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: radial-gradient(at top,#232A32,#171E28);;
+    width: 30%;
+    max-width: 600px;
+    min-width: 400px;
+    border-radius: 20px;
+    
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+p {
+    color: #9DA4AE;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 0;
+}
+
+.card{
+    padding: 30px;
+}
+
+.iconStar{
+    background-color: #262F38;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ratingChoices{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ratingChoice{
+    background-color: #262F38;
+    color: #9DA4AE;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+}
+.ratingChoice:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.ratingChoiceSelected{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.button{
+    height: 50px;
+    width: 100%;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+}
+.button:disabled{
+    background-color: hsl(25, 97%, 53%);
+    opacity: 50%;
+}
+/* .button:disabled:hover{
+    background-color: hsl(25, 97%, 53%);
+    opacity: 50%;
+} */
+.button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.button:disabled{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    opacity: 50%;
+    cursor: default;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.displayHide{
+    display: none;
+}
+.displayShow{
+    display: block;
+}
+
+
+/* card two */
+
+.graphic{
+    display: flex;
+    justify-content: center;
+}
+.choiceShownContainer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.orange{
+    text-align: center;
+    background-color: #232A32;
+    color: hsl(25, 97%, 53%);
+    margin: 0;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
+.textCard2{
+    text-align: center;
+}
+.pCard2{
+    margin: 0;
+}
